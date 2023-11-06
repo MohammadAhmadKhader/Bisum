@@ -1,0 +1,87 @@
+/* xs=0 */
+
+/* start of sm */
+@media (min-width: 0px) and (max-width:575px){
+    /* start of global */
+    .container > h2{
+        font-size: 32px  !important;
+        line-height: 48px;
+      }
+/* end of global */
+
+/* start of bar announcement */
+.sales{
+    margin: auto;
+}
+.phone-number,.login{
+    display: none;
+}
+/* End of bar announcement */
+
+
+
+}
+/* end of sm */
+
+/* start of md */
+@media (min-width: 576px) and (max-width:767px){
+
+    /* start of bar announcement */
+    .sales{
+        margin: auto;
+    }
+    .phone-number,.login{
+        display: none;
+    }
+   
+    /* End of bar announcement */
+   
+
+}
+/* end of md */
+
+/* start of lg */
+@media (min-width: 768px) and (max-width:992px){
+    /* start of global */
+    .container > h2{
+        font-size: 40px  !important;
+        line-height: 48px;
+      }
+    /* end of global */
+/* start of bar announcement */
+.sales{
+    margin: auto;
+}
+.phone-number,.login{
+    display: none;
+}
+/* End of bar announcement */
+
+
+}
+/* end of lg */
+
+/* start of xl */
+@media (min-width: 993px) and (max-width: 1199px){
+
+/* start of footer */
+.input-group{
+    width: 80%!important;
+ }
+    
+/* End of footer */
+
+}
+/* end of xl */
+
+/* start between xl and xxl */
+@media (min-width: 1200px) and (max-width: 1399px){
+
+
+
+}
+/* end between xl and xxl */
+
+/* start of xxl */
+@media (min-width: 1400px){}
+/* end of xxl */

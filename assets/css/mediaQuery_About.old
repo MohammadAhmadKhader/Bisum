@@ -1,0 +1,338 @@
+
+@media (min-width: 0px) and (max-width:575px){
+    /* start of global */
+    .container > h2{
+        font-size: 32px  !important;
+        line-height: 48px;
+      }
+/* end of global */
+
+
+/* start of bar announcement */
+.sales{
+    margin: auto;
+}
+.phone-number,.login{
+    display: none;
+}
+/* End of bar announcement */
+/* Start of promotional */
+.promo-text{
+    padding:10px ;   
+}
+.promo-text h2{
+    font-size:24px;
+    line-height:31px;
+    font-weight: 600;
+    letter-spacing:-0.03em ;
+    color:white;
+
+ }
+ .promo-text p{
+    font-size:16px ;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing:-0.03em;
+    color: white;
+    opacity: 0.7;
+ }
+ /* end of promotional */
+
+ /* Start of services */
+ 
+ .services h2{
+    font-size: 32px;
+    line-height: 48px;
+ }
+ .services-container{
+    padding: 5px 25px;
+ }
+  
+ /* End of services */
+
+ /* Start of team section */
+ .team-section h2{
+    font-size: 32px;
+    line-height: 48px;
+ }
+
+
+ /* end of team section */
+
+  /* Start of contact us */
+  .contact-us-text{
+    height:502px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-us p{
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  /* End of contact us */
+
+ /* Start of about-hero */
+ .about-hero h4{
+    font-size:24px ;
+    line-height:26px;
+  }
+.about-hero h2{
+    font-size:32px;
+    line-height:38px;
+}
+ /* End of about-hero */
+
+
+
+
+
+}
+
+
+/* start of md */
+@media (min-width: 576px) and (max-width:767px){
+/* start of global */
+.container > h2{
+    font-size: 32px  !important;
+    line-height: 48px;
+  }
+/* end of global */
+    /* start of bar announcement */
+    .sales{
+        margin: auto;
+    }
+    .phone-number,.login{
+        display: none;
+    }
+    /* End of bar announcement */
+
+     /* Start of services */
+ .services h2{
+    font-size: 32px;
+    line-height: 48px;
+ }
+  
+ /* End of services */
+ /* Start of team section */
+ .team-section h2{
+    font-size: 40px;
+    line-height: 60px;
+ }
+
+ /* end of team section */
+
+ /* Start of contact us seciton */
+ .contact-us-text{
+    height:502px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-us p{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+  }
+ /* End of contact us section */
+
+ /* Start of about-hero */
+ .about-hero h4{
+    font-size:28px ;
+    line-height:26px;
+  }
+.about-hero h2{
+    font-size:32px;
+    line-height:38px;
+}
+
+ /* End of about-hero */
+
+
+
+
+
+
+
+
+}
+/* end of md */
+
+/* start of lg */
+@media (min-width: 768px) and (max-width:992px){
+    /* start of global */
+    .container > h2{
+        font-size: 40px  !important;
+        line-height: 48px;
+      }
+    /* end of global */
+/* start of bar announcement */
+.sales{
+    margin: auto;
+}
+.phone-number,.login{
+    display: none;
+}
+/* End of bar announcement */
+
+/* Start of promotional */
+.promotional .row{
+    justify-content: center;
+}
+.promo-text{
+    padding:15px ;   
+}
+.promo-text h2{
+    font-size:28px;
+    line-height:36px;
+    font-weight: 600;
+    letter-spacing:-0.03em ;
+    color:white;
+
+ }
+ .promo-text p{
+    font-size:18px ;
+    line-height: 27px;
+    font-weight: 600;
+    letter-spacing:-0.03em;
+    color: white;
+    opacity: 0.7;
+ }
+ /* End of promotional */
+
+ /* Start of services */
+ .services h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+ }
+
+ /* End of services */
+
+ /* Start of team section */
+ .team-section h2{
+    font-size: 40px;
+    line-height: 60px;
+ }
+
+ /* end of team section */
+
+ /* Start of contact us */
+ .contact-us-text{
+    height:502px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-us p{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+  }
+
+  /* End of contact us */
+
+
+}
+/* end of lg */
+
+/* start of xl */
+@media (min-width: 993px) and (max-width: 1199px){
+
+
+    /* Start of promotional */
+    .promo-text{
+        padding:20px ;
+    }
+    .promo-text h2{
+        font-size:28px;
+        line-height:36px;
+        font-weight: 600;
+        letter-spacing:-0.03em ;
+        color:white;
+    
+     }
+     .promo-text p{
+        font-size:18px ;
+        line-height: 27px;
+        font-weight: 600;
+        letter-spacing:-0.03em;
+        color: white;
+        opacity: 0.7;
+     }
+
+
+
+    /* End of promotional */
+
+    /* start of footer */
+    .input-group{
+        width: 80%!important;
+     }
+    
+    /* End of footer */
+
+}
+/* end of xl */
+
+/* start between xl and xxl */
+@media (min-width: 1200px) and (max-width: 1399px){
+
+/* Start of promotional */
+    .promo-text h2{
+        font-size:32px;
+        line-height:42px;
+        font-weight: 600;
+        letter-spacing:-0.03em ;
+        color:white;
+    
+     }
+     .promo-text p{
+        font-size:18px ;
+        line-height: 27px;
+        font-weight: 600;
+        letter-spacing:-0.03em;
+        color: white;
+        opacity: 0.7;
+     }
+
+
+
+    /* End of promotional */
+
+}
+/* end between xl and xxl */
+
+/* start of xxl */
+@media (min-width: 1400px) and (max-width: 1470px){
+    /* Start of promotional */
+    .promo-text h2{
+        font-size:32px;
+        line-height:42px;
+        font-weight: 600;
+        letter-spacing:-0.03em ;
+        color:white;
+    
+     }
+     .promo-text p{
+        font-size:18px ;
+        line-height: 27px;
+        font-weight: 600;
+        letter-spacing:-0.03em;
+        color: white;
+        opacity: 0.7;
+     }
+
+
+
+    /* End of promotional */
+
+}
+/* end of xxl */
+
+
+

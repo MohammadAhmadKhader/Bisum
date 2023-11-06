@@ -1,0 +1,2356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisum - Shop</title>
+    <link href="./assets/img/Website-logo/favicon.png" rel="icon"/> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/mediaQuery.css" />
+    <link rel="stylesheet" href="assets/css/mediaQueryFooterGreen.css">
+    <link rel="stylesheet" href="assets/css/Collection-left-sidebarStyle.css">
+
+</head>
+<body>
+
+    <div class="announcement-bar w-100 bg-MainColor text-white">
+        <div class="container d-flex justify-content-lg-between align-items-center">
+          <span class="phone-number">Call: +1 078 2376</span>
+          <div class="sales">New year sale - 30% off</div>
+          <div>
+            <a href="Login.html" class="login text-decoration-none text-white">
+            <svg class="icon icon-user" width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 0C3.07227 0 1.5 1.57227 1.5 3.5C1.5 4.70508 2.11523 5.77539 3.04688 6.40625C1.26367 7.17188 0 8.94141 0 11H1C1 8.78516 2.78516 7 5 7C7.21484 7 9 8.78516 9 11H10C10 8.94141 8.73633 7.17188 6.95312 6.40625C7.88477 5.77539 8.5 4.70508 8.5 3.5C8.5 1.57227 6.92773 0 5 0ZM5 1C6.38672 1 7.5 2.11328 7.5 3.5C7.5 4.88672 6.38672 6 5 6C3.61328 6 2.5 4.88672 2.5 3.5C2.5 2.11328 3.61328 1 5 1Z" fill="#fff"></path>
+          </svg>
+            <span>Login</span>
+            <svg class="ms-2 me-2" width="2" height="9" viewBox="0 0 2 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.4" d="M1 0.5V8.5" stroke="#FEFEFE" stroke-linecap="round"></path>
+          </svg>
+          </a>
+            
+          <div class="dropdown d-inline-block">
+          <button data-bs-toggle="dropdown" aria-expanded="false" class="bg-MainColor border-0 text-white px-0 disappear ">
+            <img
+              class="ms-2 me-1 flag-USA" src="assets/img/MainPage/USA flag/usd.jpg" alt="USA flag For dollar"/><span
+              class="ps-1">USD</span>
+              <svg class="icon icon-dropdown chevron-down" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+            </button>
+    
+            <ul class="dropdown-menu flags rounded-1">
+              <li><a class="dropdown-item" href="#">
+                <img src="assets/img/MainPage/USA flag/usd.jpg" alt="USA Flasg" />
+                <span>USA</span>
+    
+              </a></li>
+              <li><a class="dropdown-item" href="#">
+                <img src="assets/img/MainPage/flags/cad.jpg" alt="USA Flasg" />
+                <span>CAD</span>
+    
+              </a></li>
+              <li><a class="dropdown-item" href="#">
+                <img src="assets/img/MainPage/flags/eur.jpg" alt="USA Flasg" />
+                <span>EUR</span>
+    
+              </a></li>
+              <li><a class="dropdown-item" href="#">
+                <img src="assets/img/MainPage/flags/jpy.jpg" alt="USA Flasg" />
+                <span>JPY</span>
+    
+              </a></li>
+              <li><a class="dropdown-item" href="#">
+                <img src="assets/img/MainPage/flags/gbp.jpg" alt="USA Flasg" />
+                <span>GBP</span>
+    
+              </a></li>
+            </ul>
+          </div>
+    
+            </div>
+        </div>
+      </div>
+      <!-- End of Announcement bar -->
+    
+      <!-- Start of Navbar -->
+  <nav class="navbar navbar-expand-lg py-3 position-sticky top-0 navBorder bg-white">
+    <div class="container ">
+
+      <a class="navbar-brand" href="#"><img id="bisum-nav-logo" src="assets/img/MainPage/logo/logo.png" class="img-fluid"/></a>
+      <div>
+        <div class="nav-icons d-inline-block d-lg-none">
+          <svg search-icon class="cursor-p icon icon-search me-3 mb-1" width="22" height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.75 0.250183C11.8838 0.250183 15.25 3.61639 15.25 7.75018C15.25 9.54608 14.6201 11.1926 13.5625 12.4846L19.5391 18.4611L18.4609 19.5392L12.4844 13.5627C11.1924 14.6203 9.5459 15.2502 7.75 15.2502C3.61621 15.2502 0.25 11.884 0.25 7.75018C0.25 3.61639 3.61621 0.250183 7.75 0.250183ZM7.75 1.75018C4.42773 1.75018 1.75 4.42792 1.75 7.75018C1.75 11.0724 4.42773 13.7502 7.75 13.7502C11.0723 13.7502 13.75 11.0724 13.75 7.75018C13.75 4.42792 11.0723 1.75018 7.75 1.75018Z" fill="black"></path>
+        </svg>
+          <svg data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" class="mb-2 me-1 cursor-p icon icon-cart" width="22" height="22" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z" fill="black"></path>
+        </svg>
+        </div>
+
+
+      
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        
+        <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+          <svg class="icon icon-hamburger" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item position-relative pe-2">
+
+            <a class="nav-link active ps-0" aria-current="page" href="index.html"><span class="me-2">Home</span><i
+                class="fa-solid fa-chevron-down fa-sm"></i></a>
+            
+            <div class="home-drop-down-container invisible noOpacity" id="nav-home-list">
+              
+              <ul
+                class="home-drop-down d-flex justify-content-start flex-column pe-5 border-bottom border-start border-end py-3">
+                <li class="pt-0"><a>Home 1</a></li>
+                <li><a>Home 2</a></li>
+                <li><a>Home 3</a></li>
+                <li><a>Home 4</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-black" href="Collection-left-sidebar.html"><span class="me-2">Shop</span><i
+                class="fa-solid fa-chevron-down fa-sm"></i></a>
+            <div class="home-drop-down-container border-bottom border-start border-end invisible shop-drop-down noOpacity" id="nav-shop-list">
+              
+              <div class=" container py-4">
+                <div class="row">
+                  <ul class="list-unstyled col-md-3">
+                    <li class="mb-3"><a class="shop-list-title">CATEGORY PAGES</a></li>
+                    <li class="pt-0 hover-special"><a class="text-black text-decoration-none cursor-secondary transition-03" href="collection-left-sidebar.html">With Left Sidebar</a></li>
+                    <li class="hover-special"><a>With Right Sidebar</a></li>
+                    <li class="hover-special"><a>3 Column Layout</a></li>
+                    <li class="hover-special"><a>4 Column Layout</a></li>
+                    <li class="hover-special"><a>Without Sidebar</a></li>
+                  </ul>
+                  <ul class="list-unstyled col-md-3">
+                    <li class="mb-3"><a class="shop-list-title">PRODUCT PAGES</a></li>
+                    <li class="pt-0 hover-special"><a class="text-black text-decoration-none cursor-secondary transition-03" href="Products.html" class="text-decoration-none text-black special-simple-product cursor-sec">Simple Product</a></li>
+                    <li class="hover-special"><a>Variable Product</a></li>
+                    <li class="hover-special"><a>Sale Product</a></li>
+                    <li class="hover-special"><a>Featured & On Sale</a></li>
+                    <li class="hover-special"><a>Tab Inside</a></li>
+                  </ul>
+                  <ul class="list-unstyled col-md-3">
+                    <li class="mb-3"><a class="shop-list-title">PRODUCT LAYOUTS</a></li>
+                    <li class="pt-0 hover-special"><a>Grid Images</a></li>
+                    <li class="hover-special"><a>Vertical Thumb</a></li>
+                    <li class="hover-special"><a>Gallery Type</a></li>
+                    <li class="hover-special"><a>Product Width Layout</a></li>
+                    <li class="hover-special"><a>Sticky Gallery</a></li>
+                  </ul>
+                  <div class="featured-collection col-md-3">
+                    <ul class="list-unstyled">
+                      <li>
+                        <img src="assets/img/MainPage/navbar/1.jpg" class="img-fluid"></img>
+                        <h2 class="mb-0 hover-secondary pt-1">Featured Collection</h2>
+                        <div class="position-relative hover-secondary">
+                          <a href="Collection-left-sidebar.html" class="text-black text-decoration-none cursor-secondary">
+                            <span>DISCOVER NOW</span><i
+                              class="fa-solid fa-arrow-right fa-sm text-black ms-2 arrow-position hover-secondary"></i></a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-black" href="Blogs.html"><span class="me-2">Blog</span><i
+                class="fa-solid fa-chevron-down fa-sm"></i></a>
+                <div class="noOpacity position-absolute bg-white border-bottom border-end border-start py-3 ps-4 pe-5 invisible" id="nav-blog-list">
+                  <ul class="list-unstyled me-2" >
+                    <li class="pt-0 cursor-secondary transition-03"><a href="Blogs.html" class="text-black text-decoration-none">Blog</a></li>
+                    <li class="cursor-secondary transition-03"><a href="BlogsDetails.html" class="text-black text-decoration-none">Blog Details</a></li>
+                  </ul>
+                </div>
+
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-black" href="About.html"><span class="me-2">Pages</span><i
+                class="fa-solid fa-chevron-down fa-sm"></i></a>
+                <div class="noOpacity position-absolute bg-white border-bottom border-end border-start py-3 ps-4 invisible" id="nav-pages-list">
+                  <ul class="list-unstyled" >
+                    <li class="pt-0"><a class="text-decoration-none text-black" href="About.html">About Us</a></li>
+                    <li><a href="Contact.html" class="text-decoration-none text-black">Contact</a></li>
+                    <li><a href="faq.html" class="text-decoration-none text-black">FAQ</a></li>
+                    <li><a href="404.html" class="text-decoration-none text-black">404 page</a></li>
+                    <li><a href="Login.html" class="text-decoration-none text-black">Login</a></li>
+                    <li><a href="Register.html" class="text-decoration-none text-black">Register</a></li>
+                    <li><a href="Wishlist.html" class="text-decoration-none text-black">Wishlist</a></li>
+                    <li><a href="Cart.html" class="text-decoration-none text-black">Cart</a></li>
+                    <li><a href="checkOut.html" class="text-decoration-none text-black">Checkout</a></li>
+                  </ul>
+                </div>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-black" href="Contact.html"><span class="me-2">Contact</span></a>
+          </li>
+        </ul>
+        <div class="nav-icons d-flex gap-4">
+          <svg search-icon class="cursor-p icon icon-search mt-1" width="22" height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.75 0.250183C11.8838 0.250183 15.25 3.61639 15.25 7.75018C15.25 9.54608 14.6201 11.1926 13.5625 12.4846L19.5391 18.4611L18.4609 19.5392L12.4844 13.5627C11.1924 14.6203 9.5459 15.2502 7.75 15.2502C3.61621 15.2502 0.25 11.884 0.25 7.75018C0.25 3.61639 3.61621 0.250183 7.75 0.250183ZM7.75 1.75018C4.42773 1.75018 1.75 4.42792 1.75 7.75018C1.75 11.0724 4.42773 13.7502 7.75 13.7502C11.0723 13.7502 13.75 11.0724 13.75 7.75018C13.75 4.42792 11.0723 1.75018 7.75 1.75018Z" fill="black"></path>
+        </svg>
+          <svg heart_icon class="mt-1 cursor-p icon icon-wishlist" width="22" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z" fill="black"></path>
+        </svg>
+          <svg data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" class="mt-1 cursor-p icon icon-cart" width="22" height="22" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z" fill="black"></path>
+        </svg>
+        </div>
+      </div> 
+      
+      
+
+    </div>
+
+      
+    </div>
+  </nav>
+  <!-- End of navbar -->
+  <!-- Start of search -->
+  <section  class="search-dropdown  position-relative">
+    <div search-dropdown class="position-absolute fixed-top border-bottom d-flex align-items-center overflow-hidden">
+    <div class="container">
+      <div class="d-flex align-items-center">
+      <div class="d-flex align-items-center w-100">
+
+        <svg class="icon icon-search cursor-p" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7.75 0.250183C11.8838 0.250183 15.25 3.61639 15.25 7.75018C15.25 9.54608 14.6201 11.1926 13.5625 12.4846L19.5391 18.4611L18.4609 19.5392L12.4844 13.5627C11.1924 14.6203 9.5459 15.2502 7.75 15.2502C3.61621 15.2502 0.25 11.884 0.25 7.75018C0.25 3.61639 3.61621 0.250183 7.75 0.250183ZM7.75 1.75018C4.42773 1.75018 1.75 4.42792 1.75 7.75018C1.75 11.0724 4.42773 13.7502 7.75 13.7502C11.0723 13.7502 13.75 11.0724 13.75 7.75018C13.75 4.42792 11.0723 1.75018 7.75 1.75018Z" fill="black"></path>
+      </svg>
+
+        <div class="ms-2 w-100">
+          <input placeholder="Search your products" class="w-100"/>
+        </div>
+
+      </div>
+      <div>
+        <button close-btn type="button" class="btn-close" aria-label="Close"></button>
+      </div>
+    </div>
+
+    </div>
+    </div>
+  </section>
+  <!-- End of search -->
+
+      <!-- Start of OffCanvas -->
+            <offcanvas>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"navbar-Offcanvas aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header border-bottom ">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="d-flex justify-content-between flex-column flex-grow-1">
+      <ul class=" list-unstyled">
+        <li class="border-bottom p-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="index.html" class="text-black text-decoration-none">Home</a>
+            <span>
+              <svg navbar-zip-1st class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            </span>
+          </div>
+        </li>
+        <li class="border-bottom p-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Collection-left-sidebar.html" class="text-black text-decoration-none">Shop</a>
+            <span>
+              <svg shop-arrow-list class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            </span>
+          </div>
+        </li>
+        <li class="border-bottom p-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Blogs.html" class="text-black text-decoration-none">Blog</a>
+           
+          </div>
+        </li>
+        <li class="border-bottom p-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a>Pages</a>
+            <span>
+              <svg pages-arrow-list class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            </span>
+          </div>
+        </li>
+        <li class="border-bottom p-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Contact.html" class="text-black text-decoration-none">Contact</a>
+            
+          </div>
+        </li>
+      </ul>
+    
+      <ul class="ps-3 list-unstyled mt-auto">
+        <li class="pb-4 offcanvas-lower-list">
+          <span>
+            <svg class="icon icon-phone me-2" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+          </svg>
+          </span>
+          <a>Call: +1 078 2376</a>
+        </li>
+    
+        <li class="pb-4 offcanvas-lower-list">
+          <span>
+            <svg class="icon icon-user me-2" width="18" height="18" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 0C3.07227 0 1.5 1.57227 1.5 3.5C1.5 4.70508 2.11523 5.77539 3.04688 6.40625C1.26367 7.17188 0 8.94141 0 11H1C1 8.78516 2.78516 7 5 7C7.21484 7 9 8.78516 9 11H10C10 8.94141 8.73633 7.17188 6.95312 6.40625C7.88477 5.77539 8.5 4.70508 8.5 3.5C8.5 1.57227 6.92773 0 5 0ZM5 1C6.38672 1 7.5 2.11328 7.5 3.5C7.5 4.88672 6.38672 6 5 6C3.61328 6 2.5 4.88672 2.5 3.5C2.5 2.11328 3.61328 1 5 1Z" fill="#000"></path>
+          </svg>
+          </span>
+          <a href="Login.html" class="text-decoration-none text-black">Login</a>
+        </li>
+    
+        <li class="pb-4 offcanvas-lower-list">
+          <span>
+            <svg class="icon icon-wishlist me-2" width="18" height="18" viewBox="0 0 26 22" fill="#000" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z" fill="#000"></path>
+          </svg>
+          </span>
+          <a href="Wishlist.html"class="text-black text-decoration-none transition-03 my-wish-list-btn" >My wishlist</a>
+        </li>
+    
+        <li class="pb-3 offcanvas-lower-list">
+          <div class="dropdown">
+          <button data-bs-toggle="dropdown" aria-expanded="false" class="ps-0 bg-white border-0 text-black">
+            <img
+              class="me-2 flag-USA" src="assets/img/MainPage/USA flag/usd.jpg" alt="USA flag For dollar" /><span class="offcanvas-lower-list">USD</span>
+              
+              <span>
+              <svg class="icon icon-dropdown chevron-down mb-1" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 21 21" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+    
+            </button>
+            <ul class="dropdown-menu flags rounded-1 ">
+                  <li><a class="dropdown-item" href="#">
+                    <img src="assets/img/MainPage/USA flag/usd.jpg" alt="USA Flasg" />
+                    <span>USA</span>
+        
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <img src="assets/img/MainPage/flags/cad.jpg" alt="USA Flasg" />
+                    <span>CAD</span>
+        
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <img src="assets/img/MainPage/flags/eur.jpg" alt="USA Flasg" />
+                    <span>EUR</span>
+        
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <img src="assets/img/MainPage/flags/jpy.jpg" alt="USA Flasg" />
+                    <span>JPY</span>
+        
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <img src="assets/img/MainPage/flags/gbp.jpg" alt="USA Flasg" />
+                    <span>GBP</span>
+        
+                  </a></li>
+                </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    
+    
+    
+    <div class="position-absolute offcanvas-1st-layer " list_Of_home >
+      <div class="offcanvas-header border-bottom justify-content-start ps-1">
+          <svg back-arrow-style-1 class="icon icon-menu-back me-2" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+    
+        <h5 class="offcanvas-title d-inline-block" id="offcanvasWithBothOptionsLabel">Home</h5>
+      </div>
+      
+      <ul class=" list-unstyled">
+        <li class="border-bottom p-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a>Home 1</a>
+            
+          </div>
+        </li>
+        <li class="border-bottom p-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a>Home 2</a>
+            
+          </div>
+        </li>
+        <li class="border-bottom p-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a>Home 3</a>
+           
+          </div>
+        </li>
+        <li class="border-bottom p-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a>Home 4</a>
+            
+          </div>
+        </li>
+        </ul>
+      
+    </div>
+    
+    <div class="position-absolute offcanvas-2nd-layer " shop-list >
+    
+      <div class="offcanvas-header border-bottom justify-content-start ps-1">
+          <svg back-arrow-style-1 class="icon icon-menu-back me-2" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+    
+        <h5 class="offcanvas-title d-inline-block" id="offcanvasWithBothOptionsLabel">Shop</h5>
+      </div>
+      
+      <ul class=" list-unstyled">
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a>Category Pages</a>
+            <span>
+              <svg category-pages-list class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            </span>
+          </div>
+        </li>
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a>Product Pages</a>
+            <span>
+              <svg product-pages-arrow class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            </span>
+            
+          </div>
+        </li>
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a>Product Layouts</a>
+            <span>
+              <svg product-layouts-arrow class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            </span>
+           
+          </div>
+        </li>
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a>Featured Collection</a>
+            
+            
+          </div>
+        </li>
+        </ul>
+    </div>
+    
+    <div pages-list class="position-absolute offcanvas-3rd-layer " >
+    
+      <div  class="offcanvas-header border-bottom justify-content-start ps-1">
+          <svg back-arrow-style-1 class="icon icon-menu-back me-2" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+    
+        <h5 class="offcanvas-title d-inline-block" id="offcanvasWithBothOptionsLabel">Pages</h5>
+      </div>
+      
+      <ul  class=" list-unstyled">
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="About.html" class="text-black text-decoration-none SecondaryColorHover">About Us</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Contact.html" class="text-black text-decoration-none SecondaryColorHover">Contact</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="FAQ.html" class="text-black text-decoration-none SecondaryColorHover">FAQ</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="404.html" class="text-black text-decoration-none SecondaryColorHover">404 page</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Login.html" class="text-black text-decoration-none SecondaryColorHover">Login</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Register.html" class="text-black text-decoration-none SecondaryColorHover">Register</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Wishlist.html" class="text-black text-decoration-none SecondaryColorHover">Wishlist</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Cart.html" class="text-black text-decoration-none SecondaryColorHover">Cart</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="checkOut.html" class="text-black text-decoration-none SecondaryColorHover">Checkout</a>
+          </div>
+        </li>
+        </ul>
+    </div>
+    
+    <div class="position-absolute offcanvas-4th-1-layer " category-pages >
+    
+      <div class="offcanvas-header border-bottom justify-content-start ps-1">
+          <svg back-arrow-style-1 class="icon icon-menu-back me-2" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+    
+        <h5 class="offcanvas-title d-inline-block" id="offcanvasWithBothOptionsLabel">Category Pages</h5>
+      </div>
+      
+      <ul class=" list-unstyled">
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Collection-left-sidebar.html" class="text-black text-decoration-none SecondaryColorHover">With Left Sidebar</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Contact.html" class="text-black text-decoration-none SecondaryColorHover">With Right Sidebar</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="FAQ.html" class="text-black text-decoration-none SecondaryColorHover">3 Column Layout</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="404.html" class="text-black text-decoration-none SecondaryColorHover">4 Column Layout</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Login.html" class="text-black text-decoration-none SecondaryColorHover">Without Sidebar</a>
+          </div>
+        </li>
+        </ul>
+    </div>
+    
+    <div class="position-absolute offcanvas-4th-2-layer " product-pages >
+    
+      <div class="offcanvas-header border-bottom justify-content-start ps-1">
+          <svg back-arrow-style-1 class="icon icon-menu-back me-2" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+    
+        <h5 class="offcanvas-title d-inline-block" id="offcanvasWithBothOptionsLabel">Product Pages</h5>
+      </div>
+      
+      <ul class=" list-unstyled">
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Products.html" class="text-black text-decoration-none SecondaryColorHover">Simple Product</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="#" class="text-black text-decoration-none SecondaryColorHover">Variable Product</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="#" class="text-black text-decoration-none SecondaryColorHover">Sale Product</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="#" class="text-black text-decoration-none SecondaryColorHover">Featured & On Sale</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="#" class="text-black text-decoration-none SecondaryColorHover">Tab Inside</a>
+          </div>
+        </li>
+        </ul>
+    </div>
+    
+    <div class="position-absolute offcanvas-4th-3-layer " product-layouts >
+    
+      <div class="offcanvas-header border-bottom justify-content-start ps-1">
+          <svg back-arrow-style-1 class="icon icon-menu-back me-2" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+    
+        <h5 class="offcanvas-title d-inline-block" id="offcanvasWithBothOptionsLabel">Product Layouts</h5>
+      </div>
+      
+      <ul class=" list-unstyled">
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="Products.html" class="text-black text-decoration-none SecondaryColorHover">Grid Images</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="#" class="text-black text-decoration-none SecondaryColorHover">Vertical Thumb</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="#" class="text-black text-decoration-none SecondaryColorHover">Gallery Type</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="#" class="text-black text-decoration-none SecondaryColorHover">Product Width Layout</a>
+          </div>
+        </li>
+    
+        <li class="border-bottom px-3 offcanvas-upper-list">
+          <div class="d-flex justify-content-between">
+            <a href="#" class="text-black text-decoration-none SecondaryColorHover">Sticky Gallery</a>
+          </div>
+        </li>
+        </ul>
+    </div>
+    
+    </div>
+            </offcanvas>
+
+      <!-- End of OffCanvas -->
+
+       <!-- Start of Cart OffCanvas -->
+  <section class="cart-offcanvass">
+    <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title" id="staticBackdropLabel">Your Cart (04)</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      
+    <div class="cart-OffCanvas my-3 overflow-y-scroll">
+
+      <div class="d-flex cart-item">
+         <div>
+        <img src="assets/img/MainPage/Products/pro-2/2.jpg" alt="Chosen Product 1" class="m-0 p-0"/>
+        </div>
+      <div class="ps-3 w-100">
+        <h2>
+          <a>Eliot Reversible Sectional</a>
+        </h2>
+        <p>XS / Dove Gray</p>
+        <div>
+          <div class="d-flex justify-content-between w-100">
+            <div class="input-group mb-0 d-flex">
+              <span class="input-group-text rounded-0 bg-white" counter-Minus>-</span>
+              <input value="1" inputmode="numeric" type="number" counter class=""/>
+              <span class="input-group-text rounded-0 bg-white" counter-Plus>+</span>
+            </div>
+          
+          <div class="d-flex flex-column">
+            <p class="cart-price mb-0">$580.00</p>
+            <a class="text-decoration-underline remove-a">Remove</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="d-flex cart-item mt-2">
+      <div>
+     <img src="assets/img/MainPage/Products/pro-1/9.jpg" alt="Chosen Product 1" class="m-0 p-0"/>
+     </div>
+   <div class="ps-3 w-100">
+     <h2>
+       <a>Eliot Reversible Sectional</a>
+     </h2>
+     <p>XS / Dove Gray</p>
+     <div>
+       <div class="d-flex justify-content-between w-100">
+         <div class="input-group mb-0 d-flex">
+           <span class="input-group-text rounded-0 bg-white"counter-Minus>-</span>
+           <input type="number" value="1" inputmode="numeric" counter class=""/>
+           <span class="input-group-text rounded-0 bg-white" counter-Plus>+</span>
+         </div>
+       
+       <div class="d-flex flex-column">
+         <p class="cart-price mb-0">$580.00</p>
+         <a class="text-decoration-underline remove-a">Remove</a>
+       </div>
+     </div>
+     </div>
+   </div>
+      </div>
+
+      <div class="d-flex cart-item mt-2">
+  <div>
+ <img src="assets/img/MainPage/Products/pro-3/3.jpg" alt="Chosen Product 1" class="m-0 p-0"/>
+ </div>
+<div class="ps-3 w-100">
+ <h2>
+   <a>Eliot Reversible Sectional</a>
+ </h2>
+ <p>XS / Dove Gray</p>
+ <div>
+   <div class="d-flex justify-content-between w-100">
+     <div class="input-group mb-0 d-flex">
+       <span class="input-group-text rounded-0 bg-white" counter-Minus>-</span>
+       <input type="number" value="1" inputmode="numeric" counter class=""/>
+       <span class="input-group-text rounded-0 bg-white" counter-Plus>+</span>
+     </div>
+   
+   <div class="d-flex flex-column">
+     <p class="cart-price mb-0">$580.00</p>
+     <a class="text-decoration-underline remove-a">Remove</a>
+   </div>
+ </div>
+ </div>
+</div>
+      </div>
+
+      <div class="d-flex cart-item mt-2">
+  <div>
+ <img src="assets/img/MainPage/Products/pro-4/4.jpg" alt="Chosen Product 1" class="m-0 p-0"/>
+ </div>
+<div class="ps-3 w-100">
+ <h2>
+   <a>Eliot Reversible Sectional</a>
+ </h2>
+ <p>XS / Dove Gray</p>
+ <div>
+   <div class="d-flex justify-content-between w-100">
+     <div class="input-group mb-0 d-flex">
+       <span class="input-group-text rounded-0 bg-white" counter-Minus>-</span>
+       <input type="number" value="1" inputmode="numeric" counter class=""/>
+       <span class="input-group-text rounded-0 bg-white" counter-Plus>+</span>
+     </div>
+   
+   <div class="d-flex flex-column">
+     <p class="cart-price mb-0">$580.00</p>
+     <a class="text-decoration-underline remove-a">Remove</a>
+   </div>
+ </div>
+ </div>
+</div>
+      </div>
+
+      </div>
+      <div class="offcanvas-subtotal">
+        <hr/>
+        <div class="px-2 py-2">
+          <div class="d-flex justify-content-between subtotal-price">
+            <span>Subtotal</span><span>$1548.00</span>
+          </div>
+          <p>Taxes and shipping will be calculated at checkout.</p>
+          <div class="offcanvas-subtotal-btns">
+            <a href="Cart.html" class="view-chart text-decoration-none MainBorder rounded-1">View Cart</a>
+            <a href="checkout.html"  class="text-white bg-MainColor rounded-1 text-decoration-none MainBorder">Checkout</a>
+          </div>
+        </div>
+      </div>
+    
+    
+    
+    </div>
+   
+  </section>
+  <!-- End of Cart OffCanvas -->
+
+  <!-- start of Scroll up button -->
+    
+  <button id="scroll-top-page-btn" class="d-none scroll-up-btn rounded-1 bg-black">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+<!-- End of scroll up button -->
+    
+    <!-- Start of breadCrumb -->
+      <section>
+        <div class="container">
+          <div class="_breadCrumb">
+            <ul class="d-flex">
+              <li><a class="text-decoration-none text-black" href="index.html">Home</a></li>
+              <li><i class="fa-solid fa-chevron-right fa-sm"></i></li>
+              <li>Products</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- End of breadCrumb -->
+      <!-- Start of collection -->
+      <section class="collection-section">
+    <div class="container">
+        <div class="row">
+            <div class="d-lg-block d-none col-lg-3 left-lists">
+        
+            <div>
+    
+            <div class="lists-parents">
+                <div class="d-flex justify-content-between titles-parents">
+                    <span class="lists-titles">Categories</span>
+                    <span>
+                        <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                </div>
+
+                <ul>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Women Bag</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Bottles</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Men's Shoe</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Toddler Dress</span>
+                            </label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="lists-parents">
+                <div class="d-flex justify-content-between titles-parents">
+                    <span class="lists-titles">Availability</span>
+                    <span>
+                        <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                </div>
+
+                <ul>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">In Stock</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Out Of Stock</span>
+                            </label>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="lists-parents">
+                <div class="d-flex justify-content-between titles-parents">
+                    <span class="lists-titles">Price</span>
+                    <span>
+                        <svg special-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                </div>
+
+                <div class="left-side-bar-price mt-3 d-flex">
+                  <input type="number" placeholder="$0"/>
+                  <span>To</span>
+                  <input type="number" placeholder="$595.00"/>
+                </div>
+            </div>
+
+            <div class="lists-parents">
+                <div class="d-flex justify-content-between titles-parents">
+                    <span class="lists-titles">Colors</span>
+                    <span>
+                        <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                </div>
+
+                <div>
+                    <ul class="colors-list">
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox"/>
+                                <span class="filter-checkbox circle-color blue"></span>
+                                
+                                </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox"/>
+                                <span class="filter-checkbox circle-color red"></span>
+                                
+                                </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox"/>
+                                <span class="filter-checkbox circle-color green"></span>
+                                
+                                </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox"/>
+                                <span class="filter-checkbox circle-color purple"></span>
+                                
+                                </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox"/>
+                                <span class="filter-checkbox circle-color yellow"></span>
+                                
+                                </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox"/>
+                                <span class="filter-checkbox circle-color pink"></span>
+                                
+                                </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox"/>
+                                <span class="filter-checkbox circle-color orange"></span>
+                                
+                                </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox"/>
+                                <span class="filter-checkbox circle-color aqua"></span>
+                                
+                                </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox"/>
+                                <span class="filter-checkbox circle-color brown"></span>
+                                
+                                </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox"/>
+                                <span class="filter-checkbox circle-color bisque"></span>
+                                
+                                </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox"/>
+                                <span class="filter-checkbox circle-color grey"></span>
+                                
+                                </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="lists-parents">
+                <div class="d-flex justify-content-between titles-parents">
+                    <span class="lists-titles">Size</span>
+                    <span>
+                        <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox">
+                                <span class="filter-checkbox"></span>
+                                <span class="btn-desc">XS</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox">
+                                <span class="filter-checkbox"></span>
+                                <span class="btn-desc">S</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox">
+                                <span class="filter-checkbox"></span>
+                                <span class="btn-desc">M</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox">
+                                <span class="filter-checkbox"></span>
+                                <span class="btn-desc">L</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox">
+                                <span class="filter-checkbox"></span>
+                                <span class="btn-desc">XL</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="filter-label">
+                                <input type="checkbox">
+                                <span class="filter-checkbox"></span>
+                                <span class="btn-desc">XXL</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="lists-parents">
+                <div class="d-flex justify-content-between titles-parents">
+                    <span class="lists-titles">Vendor</span>
+                    <span>
+                        <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                </div>
+
+                <ul>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Bynd</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Huemor</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Jordan Crown</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Hubspot</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Ramotion</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Infosolution</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Ideo</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Codal</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Salesforce</span>
+                            </label>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="lists-parents">
+                <div class="d-flex justify-content-between titles-parents">
+                    <span class="lists-titles">Product Type</span>
+                    <span>
+                        <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                </div>
+
+                <ul>
+                    <li>
+                        <label class="filter-label">
+                        <input type="checkbox"/>
+                        <span class="filter-checkbox"></span>
+                        <span class="btn-desc">Bodysuit</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Hoodie</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Jacket</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Legging</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Short</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Top</span>
+                            </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox"/>
+                            <span class="filter-checkbox"></span>
+                            <span class="btn-desc">Underwear</span>
+                            </label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="lists-parents">
+                <div class="d-flex justify-content-between titles-parents pb-3">
+                    <span class="lists-titles">Related Products</span>
+                    
+                </div>
+                
+                <div class="related-products">
+                    <div class="single-related-product">
+                    <div>
+                        <img  src="assets/img/left-sidebarCollection/21.jpg" alt="Tea Table">
+                    </div>
+                    <div class="related-product-info">
+                        <h2>Tea Table</h2>
+                        <div class="stars-div">
+                            <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                            <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                            <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                            <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                            <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                        </div>
+                        <p>$2,546</p>
+                    </div>
+                    </div>
+
+                    <div class="single-related-product">
+                        <div>
+                            <img  src="assets/img/left-sidebarCollection/22.jpg" alt="Comfy Sofa">
+                        </div>
+                        <div class="related-product-info">
+                            <h2>Comfy Sofa</h2>
+                            <div class="stars-div">
+                                <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                            </div>
+                            <p>$1,526</p>
+                        </div>
+                        </div>
+
+                        <div class="single-related-product">
+                            <div>
+                                <img  src="assets/img/left-sidebarCollection/23.jpg" alt="Cusion Chair">
+                            </div>
+                            <div class="related-product-info">
+                                <h2>Cusion Chair</h2>
+                                <div class="stars-div">
+                                    <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                    <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                    <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                    <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                    <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                </div>
+                                <p>$1,235</p>
+                            </div>
+                            </div>
+                </div>
+
+            </div>
+
+            <div class="lists-parents">
+                <img class="img-fluid home-decor-furniture" src="assets/Collection-img/collection/collection.jpg" alt="Home Decor Furniture"/>
+            </div>
+
+        </div>
+    
+                    </div>
+                    
+                    
+                    <div class="col-lg-9">
+                <div class="d-flex justify-content-between top-right-side-header flex-wrap">
+                    <div class="d-flex header-left">
+                    <h2>All products</h2>
+                    <span>(237 items)</span>
+                    </div>
+
+                    <div class="d-none d-lg-flex header-right">
+                        <div>Sort by: Featured</div>
+                        <span class="ms-3">
+                          <div class="dropdown">
+                              <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <svg class="icon icon-down" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                      <polyline points="6 9 12 15 18 9"></polyline>
+                                  </svg>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">Featured</button></li>
+                                <li><button class="dropdown-item" type="button">Best Selling</button></li>
+                                <li><button class="dropdown-item" type="button">Alphabetically, A-Z</button></li>
+                                <li><button class="dropdown-item" type="button">Alphabetically, Z-A</button></li>
+                                <li><button class="dropdown-item" type="button">Price, low to high</button></li>
+                                <li><button class="dropdown-item" type="button">Price, high to low</button></li>
+                                <li><button class="dropdown-item" type="button">Date, old to new</button></li>
+                                <li><button class="dropdown-item" type="button">Date, new to old</button></li>
+                              </ul>
+                          </div>
+                        </span>
+                    </div>
+
+                    <div class="d-flex d-lg-none header-right">
+                      <a class="d-flex text-decoration-none MainColor" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-filter">
+                          <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+                        </svg>
+
+                        <div class="ms-2 filter-sorting">Filter and Sorting</div>
+                      </a>
+                    </div>
+                </div>
+
+    <div>
+                    <div class="row row-gap-5">
+                        <div class="product col-lg-4  col-md-6 col-6">
+                            <div class="position-relative product-image">
+                            <img class="img-fluid primary_img" src="assets/img/MainPage/Products/pro-1/f2.jpg" alt="product#1 primary image">
+                            <img class="img-fluid secondary_img position-absolute" src="assets/img/MainPage/Products/pro-1/9.jpg" alt="product#1 secondary image"> 
+                            <div class="note">
+                              <p class="bg-MainColor py-1 mt-2 ms-2 d-inline-block rounded-1 text-white">-44%</p>
+                            </div>
+                            <div class="card-icons d-flex justify-content-center">
+                              <a class="card-icons-num-1"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z" fill="#00234D"></path>
+                            </svg></a>
+                              
+                            <a class="card-icons-num-2">
+                              <svg class="icon icon-wishlist" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z" fill="#00234D"></path>
+                          </svg>
+                        </a>
+                            
+                          <a class="card-icons-num-3">
+                            <svg class="icon icon-cart" width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z" fill="#00234D"></path>
+                        </svg>
+                      </a>
+                            </div>
+                            </div>
+                            <!-- Product Text -->
+                            <div class="product-text">
+                              <ul class="text-start ms-0 ps-1 mb-1 product-colors">
+                              <li><a class="icons color-pro-1 active"></a></li>
+                              <li><a class="icons color-pro-2" not-active-point></a></li>
+                              <li><a class="icons color-pro-3" not-active-point></a></li>
+                            </ul>
+                            <a class="d-block text-decoration-none text-black mb-2 product-title">Best Wood Furniture</a>
+                            <span class="me-2 curr-price">$1529</span><span class="text-decoration-line-through text-danger cancelled-price">$1759</span>
+                            </div>
+                            <!-- End of Product Text -->
+              
+                          </div>
+              
+                          <div class="product col-lg-4 col-md-6 col-6">
+                            <div class="position-relative product-image">
+                            <img class="img-fluid primary_img" src="assets/img/MainPage/Products/pro-2/2.jpg" alt="product#2 primary image">
+                            <img class="img-fluid secondary_img position-absolute" src="assets/img/MainPage/Products/pro-2/10.jpg" alt="product#2 secondary image"> 
+                
+                            <div class="card-icons d-flex justify-content-center">
+                              <a class="card-icons-num-1"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z" fill="#00234D"></path>
+                            </svg></a>
+                              
+                            <a class="card-icons-num-2">
+                              <svg class="icon icon-wishlist" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z" fill="#00234D"></path>
+                          </svg>
+                        </a>
+                            
+                          <a class="card-icons-num-3">
+                            <svg class="icon icon-cart" width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z" fill="#00234D"></path>
+                        </svg>
+                      </a>
+                            </div>
+                            </div>
+                            <!-- Product Text -->
+                            <div class="product-text">
+                              <ul class="text-start ms-0 ps-1 mb-1 product-colors">
+                              <li><a class="icons color-pro-1 active"></a></li>
+                              <li><a class="icons color-pro-2"not-active-point></a></li>
+                              <li><a class="icons color-pro-3"not-active-point></a></li>
+                            </ul>
+                            <a class="d-block text-decoration-none text-black mb-2 product-title">Best Wood Furniture</a>
+                            <span class="me-2 curr-price">$1529</span><span class="text-decoration-line-through text-danger cancelled-price">$1759</span>
+                            </div>
+                            <!-- End of Product Text -->
+              
+                          </div>
+
+                          <div class="product col-lg-4  col-md-6 col-6">
+                            <div class="position-relative product-image">
+                            <img class="img-fluid primary_img" src="assets/img/MainPage/Products/pro-3/3.jpg" alt="product#3 primary image">
+                            <img class="img-fluid secondary_img position-absolute" src="assets/img/MainPage/Products/pro-3/11.jpg" alt="product#3 secondary image"> 
+                            <div class="note">
+                              <p class="bg-MainColor py-1 mt-2 ms-2 d-inline-block rounded-1 text-white">New</p>
+                            </div>
+                            <div class="card-icons d-flex justify-content-center">
+                              <a class="card-icons-num-1"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z" fill="#00234D"></path>
+                            </svg></a>
+                              
+                            <a class="card-icons-num-2">
+                              <svg class="icon icon-wishlist" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z" fill="#00234D"></path>
+                          </svg>
+                        </a>
+                            
+                          <a class="card-icons-num-3">
+                            <svg class="icon icon-cart" width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z" fill="#00234D"></path>
+                        </svg>
+                      </a>
+                            </div>
+                            </div>
+                            <!-- Product Text -->
+                            <div class="product-text">
+                              <ul class="text-start ms-0 ps-1 mb-1 product-colors">
+                              <li><a class="icons color-pro-1 active"></a></li>
+                              <li><a class="icons color-pro-2"not-active-point></a></li>
+                              <li><a class="icons color-pro-3"not-active-point></a></li>
+                            </ul>
+                            <a class="d-block text-decoration-none text-black mb-2 product-title">Best Wood Furniture</a>
+                            <span class="me-2 curr-price">$1529</span><span class="text-decoration-line-through text-danger cancelled-price">$1759</span>
+                            </div>
+                            <!-- End of Product Text -->
+              
+                          </div>
+            
+                          <div class="product col-lg-4  col-md-6 col-6">
+                            <div class="position-relative product-image">
+                            <img class="img-fluid primary_img" src="assets/img/MainPage/Products/pro-3/3.jpg" alt="product#3 primary image">
+                            <img class="img-fluid secondary_img position-absolute" src="assets/img/MainPage/Products/pro-3/11.jpg" alt="product#3 secondary image"> 
+                            <div class="note">
+                              <p class="bg-MainColor py-1 mt-2 ms-2 d-inline-block rounded-1 text-white">New</p>
+                            </div>
+                            <div class="card-icons d-flex justify-content-center">
+                              <a class="card-icons-num-1"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z" fill="#00234D"></path>
+                            </svg></a>
+                              
+                            <a class="card-icons-num-2">
+                              <svg class="icon icon-wishlist" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z" fill="#00234D"></path>
+                          </svg>
+                        </a>
+                            
+                          <a class="card-icons-num-3">
+                            <svg class="icon icon-cart" width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z" fill="#00234D"></path>
+                        </svg>
+                      </a>
+                            </div>
+                            </div>
+                            <!-- Product Text -->
+                            <div class="product-text">
+                              <ul class="text-start ms-0 ps-1 mb-1 product-colors">
+                              <li><a class="icons color-pro-1 active"></a></li>
+                              <li><a class="icons color-pro-2"not-active-point></a></li>
+                              <li><a class="icons color-pro-3"not-active-point></a></li>
+                            </ul>
+                            <a class="d-block text-decoration-none text-black mb-2 product-title">Best Wood Furniture</a>
+                            <span class="me-2 curr-price">$1529</span><span class="text-decoration-line-through text-danger cancelled-price">$1759</span>
+                            </div>
+                            <!-- End of Product Text -->
+              
+                          </div>
+              
+                          <div class="product col-lg-4 col-md-6 col-6">
+                            <div class="position-relative product-image">
+                            <img class="img-fluid primary_img" src="assets/img/MainPage/Products/pro-4/4.jpg" alt="product#4 primary image">
+                            <img class="img-fluid secondary_img position-absolute" src="assets/img/MainPage/Products/pro-4/14.jpg" alt="product#4 secondary image"> 
+                            
+                            <div class="card-icons d-flex justify-content-center">
+                              <a class="card-icons-num-1"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z" fill="#00234D"></path>
+                            </svg></a>
+                              
+                            <a class="card-icons-num-2">
+                              <svg class="icon icon-wishlist" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z" fill="#00234D"></path>
+                          </svg>
+                        </a>
+                            
+                          <a class="card-icons-num-3">
+                            <svg class="icon icon-cart" width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z" fill="#00234D"></path>
+                        </svg>
+                      </a>
+                            </div>
+                            </div>
+                            <!-- Product Text -->
+                            <div class="product-text">
+                              <ul class="text-start ms-0 ps-1 mb-1 product-colors">
+                              <li><a class="icons color-pro-1 active"></a></li>
+                              <li><a class="icons color-pro-2"not-active-point></a></li>
+                              <li><a class="icons color-pro-3"not-active-point></a></li>
+                            </ul>
+                            <a class="d-block text-decoration-none text-black mb-2 product-title">Best Wood Furniture</a>
+                            <span class="me-2 curr-price">$1529</span><span class="text-decoration-line-through text-danger cancelled-price">$1759</span>
+                            </div>
+                            <!-- End of Product Text -->
+              
+                          </div>
+              
+              
+                          <div class="product col-lg-4 col-md-6 col-6">
+                            <div class="position-relative product-image">
+                            <img class="img-fluid primary_img" src="assets/img/MainPage/Products/pro-5/5.jpg" alt="product#15 primary image">
+                            <img class="img-fluid secondary_img position-absolute" src="assets/img/MainPage/Products/pro-5/15.jpg" alt="product#5 secondary image"> 
+                           
+                            <div class="card-icons d-flex justify-content-center">
+                              <a class="card-icons-num-1"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z" fill="#00234D"></path>
+                            </svg></a>
+                              
+                            <a class="card-icons-num-2">
+                              <svg class="icon icon-wishlist" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z" fill="#00234D"></path>
+                          </svg>
+                        </a>
+                            
+                          <a class="card-icons-num-3">
+                            <svg class="icon icon-cart" width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z" fill="#00234D"></path>
+                        </svg>
+                      </a>
+                            </div>
+                            </div>
+                            <!-- Product Text -->
+                            <div class="product-text">
+                              <ul class="text-start ms-0 ps-1 mb-1 product-colors">
+                              <li><a class="icons color-pro-1 active"></a></li>
+                              <li><a class="icons color-pro-2"not-active-point></a></li>
+                              <li><a class="icons color-pro-3"not-active-point></a></li>
+                            </ul>
+                            <a class="d-block text-decoration-none text-black mb-2 product-title">Best Wood Furniture</a>
+                            <span class="me-2 curr-price">$1529</span><span class="text-decoration-line-through text-danger cancelled-price">$1759</span>
+                            </div>
+                            <!-- End of Product Text -->
+              
+                          </div>
+              
+                          <div class="product col-lg-4 col-md-6 col-6">
+                            <div class="position-relative product-image">
+                            <img class="img-fluid primary_img" src="assets/img/MainPage/Products/pro-6/6.jpg" alt="product#6 primary image">
+                            <img class="img-fluid secondary_img position-absolute" src="assets/img/MainPage/Products/pro-6/16.jpg" alt="product#6 secondary image"> 
+                            
+                            <div class="card-icons d-flex justify-content-center">
+                              <a class="card-icons-num-1"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z" fill="#00234D"></path>
+                            </svg></a>
+                              
+                            <a class="card-icons-num-2">
+                              <svg class="icon icon-wishlist" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z" fill="#00234D"></path>
+                          </svg>
+                        </a>
+                            
+                          <a class="card-icons-num-3">
+                            <svg class="icon icon-cart" width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z" fill="#00234D"></path>
+                        </svg>
+                      </a>
+                            </div>
+                            </div>
+                            <!-- Product Text -->
+                            <div class="product-text">
+                              <ul class="text-start ms-0 ps-1 mb-1 product-colors">
+                              <li><a class="icons color-pro-1 active"></a></li>
+                              <li><a class="icons color-pro-2"not-active-point></a></li>
+                              <li><a class="icons color-pro-3"not-active-point></a></li>
+                            </ul>
+                            <a class="d-block text-decoration-none text-black mb-2 product-title">Best Wood Furniture</a>
+                            <span class="me-2 curr-price">$1529</span><span class="text-decoration-line-through text-danger cancelled-price">$1759</span>
+                            </div>
+                            <!-- End of Product Text -->
+              
+                          </div>
+              
+                          <div class="product col-lg-4 col-md-6 col-6">
+                            <div class="position-relative product-image">
+                            <img class="img-fluid primary_img" src="assets/img/MainPage/Products/pro-7/7.jpg" alt="product#7 primary image">
+                            <img class="img-fluid secondary_img position-absolute" src="assets/img/MainPage/Products/pro-7/17.jpg" alt="product#7 secondary image"> 
+                            
+                            <div class="card-icons d-flex justify-content-center">
+                              <a class="card-icons-num-1"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z" fill="#00234D"></path>
+                            </svg></a>
+                              
+                            <a class="card-icons-num-2">
+                              <svg class="icon icon-wishlist" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z" fill="#00234D"></path>
+                          </svg>
+                        </a>
+                            
+                          <a class="card-icons-num-3">
+                            <svg class="icon icon-cart" width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z" fill="#00234D"></path>
+                        </svg>
+                      </a>
+                            </div>
+                            </div>
+                            <!-- Product Text -->
+                            <div class="product-text">
+                              <ul class="text-start ms-0 ps-1 mb-1 product-colors">
+                              <li><a class="icons color-pro-1 active"></a></li>
+                              <li><a class="icons color-pro-2"not-active-point></a></li>
+                              <li><a class="icons color-pro-3"not-active-point></a></li>
+                            </ul>
+                            <a class="d-block text-decoration-none text-black mb-2 product-title">Best Wood Furniture</a>
+                            <span class="me-2 curr-price">$1529</span><span class="text-decoration-line-through text-danger cancelled-price">$1759</span>
+                            </div>
+                            <!-- End of Product Text -->
+              
+                          </div>
+              
+                          <div class="product col-lg-4 col-md-6 col-6">
+                            <div class="position-relative product-image">
+                            <img class="img-fluid primary_img" src="assets/img/MainPage/Products/pro-8/8.jpg" alt="product#8 primary image">
+                            <img class="img-fluid secondary_img position-absolute" src="assets/img/MainPage/Products/pro-8/19.jpg" alt="product#8 secondary image"> 
+                            
+                            <div class="card-icons d-flex justify-content-center">
+                              <a class="card-icons-num-1"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z" fill="#00234D"></path>
+                            </svg></a>
+                              
+                            <a class="card-icons-num-2">
+                              <svg class="icon icon-wishlist" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z" fill="#00234D"></path>
+                          </svg>
+                        </a>
+                            
+                          <a class="card-icons-num-3">
+                            <svg class="icon icon-cart" width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z" fill="#00234D"></path>
+                        </svg>
+                      </a>
+                            </div>
+                            </div>
+                            <!-- Product Text -->
+                            <div class="product-text">
+                              <ul class="text-start ms-0 ps-1 mb-1 product-colors">
+                              <li><a class="icons color-pro-1 active"></a></li>
+                              <li><a class="icons color-pro-2"not-active-point></a></li>
+                              <li><a class="icons color-pro-3"not-active-point></a></li>
+                            </ul>
+                            <a class="d-block text-decoration-none text-black mb-2 product-title">Best Wood Furniture</a>
+                            <span class="me-2 curr-price">$1529</span><span class="text-decoration-line-through text-danger cancelled-price">$1759</span>
+                            </div>
+                            <!-- End of Product Text -->
+              
+                          </div>
+                    
+                </div>
+    </div>
+
+                    <div class="page-pagination ">
+                        <ul class="list-unstyled d-flex text-center">
+                            <li>
+                                <a href="#" class="text-black text-decoration-none ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-left">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-black text-decoration-none ">1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-black text-decoration-none ">2</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-black text-decoration-none ">3</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-black text-decoration-none ">4</a>
+                            </li>
+                            <li>
+                                <a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-right">
+                   <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>  
+                </div>
+                </div>
+            </div>
+      </section>
+      <!-- End of collection -->
+
+
+      <!-- Start of filtering Offcanvas -->
+      <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header align-items-start">
+          <h5 class="offcanvas-title filterBy" id="offcanvasExampleLabel">Filter By</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <div class="lists-parents">
+              <div class="d-flex justify-content-between titles-parents">
+                  <span class="lists-titles">Sort by: Featured</span>
+                  <span>
+                      <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                          <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                  </span>
+              </div>
+
+              <ul>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Featured</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Best Selling</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Alphabetically, A-Z</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Alphabetically, Z-A</span>
+                          </label>
+                  </li>
+
+                  <li>
+                    <label class="filter-label">
+                        <input type="checkbox"/>
+                        <span class="filter-checkbox"></span>
+                        <span class="btn-desc">Price, low to high</span>
+                        </label>
+                  </li>
+
+                  <li>
+                    <label class="filter-label">
+                        <input type="checkbox"/>
+                        <span class="filter-checkbox"></span>
+                        <span class="btn-desc">Price, high to low</span>
+                        </label>
+                  </li>
+
+                  <li>
+                    <label class="filter-label">
+                        <input type="checkbox"/>
+                        <span class="filter-checkbox"></span>
+                        <span class="btn-desc">Date, old to new</span>
+                        </label>
+                  </li>
+
+                  <li>
+                    <label class="filter-label">
+                        <input type="checkbox"/>
+                        <span class="filter-checkbox"></span>
+                        <span class="btn-desc">Date, new to old</span>
+                        </label>
+                  </li>
+
+
+              </ul>
+            </div>
+
+            <div class="lists-parents">
+              <div class="d-flex justify-content-between titles-parents">
+                  <span class="lists-titles">Categories</span>
+                  <span>
+                      <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                          <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                  </span>
+              </div>
+
+              <ul>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Women Bag</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Bottles</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Men's Shoe</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Toddler Dress</span>
+                          </label>
+                  </li>
+              </ul>
+            </div>
+
+          <div class="lists-parents">
+              <div class="d-flex justify-content-between titles-parents">
+                  <span class="lists-titles">Availability</span>
+                  <span>
+                      <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                          <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                  </span>
+              </div>
+
+              <ul>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">In Stock</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Out Of Stock</span>
+                          </label>
+                  </li>
+                  
+              </ul>
+          </div>
+
+          <div class="lists-parents">
+              <div class="d-flex justify-content-between titles-parents">
+                  <span class="lists-titles">Price</span>
+                  <span>
+                      <svg special-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                          <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                  </span>
+              </div>
+
+              <div class="left-side-bar-price mt-3 d-flex">
+                <input type="number" placeholder="$0"/>
+                <span>To</span>
+                <input type="number" placeholder="$595.00"/>
+              </div>
+          </div>
+
+          <div class="lists-parents">
+              <div class="d-flex justify-content-between titles-parents">
+                  <span class="lists-titles">Colors</span>
+                  <span>
+                      <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                          <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                  </span>
+              </div>
+
+              <div>
+                  <ul class="colors-list">
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox"/>
+                              <span class="filter-checkbox circle-color blue"></span>
+                              
+                              </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox"/>
+                              <span class="filter-checkbox circle-color red"></span>
+                              
+                              </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox"/>
+                              <span class="filter-checkbox circle-color green"></span>
+                              
+                              </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox"/>
+                              <span class="filter-checkbox circle-color purple"></span>
+                              
+                              </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox"/>
+                              <span class="filter-checkbox circle-color yellow"></span>
+                              
+                              </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox"/>
+                              <span class="filter-checkbox circle-color pink"></span>
+                              
+                              </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox"/>
+                              <span class="filter-checkbox circle-color orange"></span>
+                              
+                              </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox"/>
+                              <span class="filter-checkbox circle-color aqua"></span>
+                              
+                              </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox"/>
+                              <span class="filter-checkbox circle-color brown"></span>
+                              
+                              </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox"/>
+                              <span class="filter-checkbox circle-color bisque"></span>
+                              
+                              </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox"/>
+                              <span class="filter-checkbox circle-color grey"></span>
+                              
+                              </label>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="lists-parents">
+              <div class="d-flex justify-content-between titles-parents">
+                  <span class="lists-titles">Size</span>
+                  <span>
+                      <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                          <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                  </span>
+              </div>
+
+              <div>
+                  <ul>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox">
+                              <span class="filter-checkbox"></span>
+                              <span>XS</span>
+                          </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox">
+                              <span class="filter-checkbox"></span>
+                              <span>S</span>
+                          </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox">
+                              <span class="filter-checkbox"></span>
+                              <span>M</span>
+                          </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox">
+                              <span class="filter-checkbox"></span>
+                              <span>L</span>
+                          </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox">
+                              <span class="filter-checkbox"></span>
+                              <span>XL</span>
+                          </label>
+                      </li>
+                      <li>
+                          <label class="filter-label">
+                              <input type="checkbox">
+                              <span class="filter-checkbox"></span>
+                              <span>XXL</span>
+                          </label>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+
+          <div class="lists-parents">
+              <div class="d-flex justify-content-between titles-parents">
+                  <span class="lists-titles">Vendor</span>
+                  <span>
+                      <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                          <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                  </span>
+              </div>
+
+              <ul>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Bynd</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Huemor</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Jordan Crown</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Hubspot</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Ramotion</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Infosolution</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Ideo</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Codal</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Salesforce</span>
+                          </label>
+                  </li>
+                  
+              </ul>
+          </div>
+
+          <div class="lists-parents">
+              <div class="d-flex justify-content-between titles-parents">
+                  <span class="lists-titles">Product Type</span>
+                  <span>
+                      <svg list-wrapper xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-down">
+                          <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                  </span>
+              </div>
+
+              <ul>
+                  <li>
+                      <label class="filter-label">
+                      <input type="checkbox"/>
+                      <span class="filter-checkbox"></span>
+                      <span class="btn-desc">Bodysuit</span>
+                      </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Hoodie</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Jacket</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Legging</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Short</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Top</span>
+                          </label>
+                  </li>
+                  <li>
+                      <label class="filter-label">
+                          <input type="checkbox"/>
+                          <span class="filter-checkbox"></span>
+                          <span class="btn-desc">Underwear</span>
+                          </label>
+                  </li>
+              </ul>
+          </div>
+
+          <div class="lists-parents">
+              <div class="d-flex justify-content-between titles-parents">
+                  <span class="lists-titles">Related Products</span>
+              </div>
+              
+              <div class="related-products">
+                  <div class="single-related-product">
+                  <div>
+                      <img  src="assets/img/left-sidebarCollection/21.jpg" alt="Tea Table">
+                  </div>
+                  <div class="related-product-info">
+                      <h2>Tea Table</h2>
+                      <div class="stars-div">
+                          <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                          <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                          <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                          <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                          <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                      </div>
+                      <p>$2,546</p>
+                  </div>
+                  </div>
+
+                  <div class="single-related-product">
+                      <div>
+                          <img  src="assets/img/left-sidebarCollection/22.jpg" alt="Comfy Sofa">
+                      </div>
+                      <div class="related-product-info">
+                          <h2>Comfy Sofa</h2>
+                          <div class="stars-div">
+                              <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                              <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                              <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                              <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                              <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                          </div>
+                          <p>$1,526</p>
+                      </div>
+                      </div>
+
+                      <div class="single-related-product">
+                          <div>
+                              <img  src="assets/img/left-sidebarCollection/23.jpg" alt="Cusion Chair">
+                          </div>
+                          <div class="related-product-info">
+                              <h2>Cusion Chair</h2>
+                              <div class="stars-div">
+                                  <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                  <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                  <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                  <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                                  <img src="assets/img/left-sidebarCollection/star.png" alt="stars for evaluation full golden star">
+                              </div>
+                              <p>$1,235</p>
+                          </div>
+                          </div>
+              </div>
+
+          </div>
+
+          <div class="lists-parents">
+              <img class="img-fluid home-decor-furniture" src="assets/Collection-img/collection/collection.jpg" alt="Home Decor Furniture"/>
+          </div>
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- End of filtering Offcanvas-->
+
+
+      <!-- Start of footer -->
+    
+      <footer class="pt-5 footer mt-5">
+        <div class="container pt-5">
+        <div class="row justify-content-between upper-footer row-gap-md-3 ">
+          <div class="col-md-6 col-xl-2">
+            <div class="d-flex justify-content-between footer-titles">
+            <h4>About</h4>
+            <svg zip-down class="d-md-none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00234D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+          </div>
+      
+            <ul class="footer-list list-unstyled d-md-block zip-list">
+              <li class="pb-2"><a>About us</a></li>
+              <li class="pb-2"><a>Press center</a></li>
+              <li class="pb-2"><a>Our magazine</a></li>
+              <li class="pb-2"><a>Our group</a></li>
+              <li><a>Work with us</a></li>
+            </ul>
+          </div>
+      
+          <div class="col-md-6 col-xl-2">
+            <div class="d-flex justify-content-between footer-titles list-btm-border">
+              <h4>Shopping</h4>
+              <svg zip-down class="d-md-none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00234D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+            </div>
+            <ul class="footer-list list-unstyled d-md-block zip-list">
+              <li class="pb-2"><a>Brand catalog</a></li>
+              <li class="pb-2"><a>Discount codes</a></li>
+              <li class="pb-2"><a>Furniture</a></li>
+              <li class="pb-2"><a>Sofa</a></li>
+              <li><a>Chair</a></li>
+            </ul>
+          </div>
+      
+          <div class="col-md-6 col-xl-2">
+            <div class="d-flex justify-content-between footer-titles list-btm-border">
+              <h4>Help</h4>
+              <svg zip-down class="d-md-none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00234D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+            </div>
+            <ul class="footer-list list-unstyled d-md-block zip-list" help-list>
+              <li class="pb-2"><a>FAQ</a></li>
+              <li class="pb-2"><a>Privacy policy</a></li>
+              <li class="pb-2"><a>Support</a></li>
+              <li><a>Contact</a></li>
+              
+            </ul>
+          </div>
+      
+          <div class="col-md-6 col-xl-4 logo-form">
+            <div class="list-btm-border">
+              <img src="assets/img/Login/Logo/logo-white.png" alt="Shop's logo" class="img-fluid footer-logo mb-4" />
+            </div>
+      
+            <p>Stay up to date with all the news.</p>
+            <div>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control py-3 px-3 rounded-start-4" placeholder="Your e-mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text rounded-end-4" id="basic-addon2">SIGN UP</span>
+              </div>
+            </div>
+            <div>
+              <ul class="text-white ps-0 icons-list">
+                <li class="me-4"><i class="fa-brands fa-twitter fa-lg"></i></li>
+                <li class="me-4"><i class="fa-brands fa-square-facebook fa-xl"></i></li>
+                <li class="me-4"><i class="fa-brands fa-instagram fa-xl"></i></li>
+                <li class="me-4"><i class="fa-brands fa-tiktok fa-lg"></i></li>
+                <li><i class="fa-brands fa-youtube fa-lg"></i></li>
+              </ul>
+            </div>
+      
+          </div>
+        </div>
+      
+      </div>
+      
+      <div class="bottom-footer mt-5">
+        <div class="container d-flex justify-content-between align-items-center py-md-3 bottom-footer-list-parent">
+          <ul class="mb-0 list-unstyled d-flex align-items-center bottom-footer-list">
+            <li class="d-flex align-items-center me-4"><a>Privacy policy</a></li>
+            <li class="d-flex align-items-center"><a>Terms & Conditions</a></li>
+          </ul>
+          <p class="mb-0 pb-3 pb-sm-0">©2023 Spree Themes.</p>
+        </div>
+      </div>
+       </footer>
+    
+    
+      <!-- End of footer -->
+    
+    
+        
+    
+    <script src="assets/js/Collection-left-sidebar.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <script src="assets/js/bootstrap.bundle.min.js"></script>   
+</body>
+</html>

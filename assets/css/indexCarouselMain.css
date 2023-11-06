@@ -1,0 +1,147 @@
+.main-Carousel .__Carousel_Element{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.main-Carousel .__Carousel_PreBtn{
+    position: absolute;
+    left: 10px;
+    z-index: 3;
+}
+.main-Carousel .__Carousel_NextBtn{
+    position: absolute;
+    right: 10px;
+    z-index: 3;
+}
+.main-Carousel .slick-next::before ,.main-Carousel .slick-prev::before {
+    content:none;
+}
+.main-Carousel .slick-next{
+    top:50%;
+    transform:translateY(-250%);
+    right:85px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.main-Carousel .slick-prev{
+    top:50%;
+    transform:translateY(-250%);
+    left:0px;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.4s;
+}
+.main-Carousel .slick-dots{
+    width:120px;
+    text-align: center;
+    left:50%;
+    transform: translate(-50%);
+    bottom:25px;
+}
+.main-Carousel .slick-dots button{
+    padding: 0px !important;
+    width: 0px;
+}
+.main-Carousel .slick-dots li{
+    height: 8px;
+    margin-inline: 0px;
+    /* width: 20px; */
+}
+.main-Carousel .slick-dots .slick-active>button{
+    color: #00234D;
+    content:"";
+    background-color: #00234D;
+    width:24px;
+    height:8px;
+    border-radius: 4px;
+    opacity: 1;
+
+}
+.main-Carousel .slick-dots li >button{
+    color: #00234D;
+    content:"";
+    background-color: #00234D;
+    height:8px;
+    width:13px;
+    border-radius: 4px;
+    transition: 0.4s;
+    margin-right: 14px;
+    opacity: 0.25;
+}
+.main-Carousel .slick-dots li{
+    margin-right: 14px;
+    width: 13px;
+    
+}
+.main-Carousel .slick-dots li.slick-active{
+    margin-right: 23px;
+    transition: 0.4s;
+}
+.main-Carousel .slick-dots li >button::before{ 
+    content:none;
+}
+
+
+/* Start of texts */
+.main-carousel-image-1-text{
+    top:24%;
+    left:50%;
+}
+.main-carousel-image-2-text{
+    text-align: center;
+    top:24%;
+    left:48%;
+}
+.main-carousel-image-3-text{
+    text-align: center; 
+    top:24%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.main-Carousel .shop-now{
+    font-size:14px;
+    font-weight:500;
+    line-height:40px;
+    margin-block: 13px;
+    height: 40px;
+    width:110px;
+}
+.main-Carousel .main-caro-sec-img{
+    height: 460px;
+}
+.main-Carousel .main-carousel-text p{
+    font-size:24px;
+    font-weight:400;
+    line-height:24px;
+    margin-bottom: 30px;
+}
+.main-Carousel .main-carousel-text h2{
+    font-size:72px;
+    font-weight:600;
+    line-height:1.2;
+}
+/* End of texts */
+
+
+
+/* .single-item .slick-dots .slick-active>button::before{
+    color: #00234D;
+    content:"";
+    background-color: #00234D;
+    width:24px;
+    height:8px;
+    border-radius: 4px;
+    opacity: 1;
+
+}
+.single-item .slick-dots li >button::before{
+    color: #00234D;
+    content:"";
+    background-color: #00234D;
+    height:8px;
+    width:12px;
+    border-radius: 4px;
+    transition: 0.4s;
+    margin-right: 10px;
+} */

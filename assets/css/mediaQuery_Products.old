@@ -1,0 +1,435 @@
+/* Special */
+@media (min-width: 0px) and (max-width:390px){
+    .bottom-footer ul{
+      display: block !important;
+    }
+    .bottom-footer ul li{
+      display: block !important;
+      margin-inline: 0!important;
+      margin-top: 8px;
+    }
+  }
+
+/* start of sm */
+@media (min-width: 0px) and (max-width:575px){
+      /* start of global */
+      .container > h2{
+        font-size: 32px  !important;
+        line-height: 48px;
+      }
+/* end of global */
+
+/* start of bar announcement */
+.sales{
+    margin: auto;
+}
+.phone-number,.login{
+    display: none;
+}
+.disappear{
+    display: none;
+}
+/* End of bar announcement */
+
+
+  /* Start of nav and tabs */
+
+.modifier-nav-tabs{
+  display: flex;
+  justify-content: center;
+}
+.modifier-nav-tabs > *{
+  margin-left: 19.5px !important;
+} 
+
+/* End of nav and tabs */
+/* Start of carousel products cards */
+
+
+
+/* End of Carusel products cards */
+
+
+    /* Start of footer */
+    footer .container{
+      padding-top: 15px !important;
+    }
+    .footer h4{
+      margin-bottom: 27px;
+    }
+    .list-btm-border{
+      padding-top:20px;
+      border-top:1px solid rgba(255,255,255,20%);
+    }
+    .footer-titles svg{
+      width: 18px;
+      height: 18px;
+      stroke-width: 2.5px;
+    }
+    .footer-titles svg:hover{
+      cursor: pointer;
+    }
+    
+
+    /* End of footer */
+/* Start of product page */
+.product-thumbnail{
+  margin-block: 15px;
+}
+.product-page .product-title{
+  font-size:28px;
+  line-height:30.52px;
+  font-weight:600;
+}
+.guaranteed-checkout svg{
+  width:36px;
+  height: 36px;
+  
+}
+.product-page .product-thumbnail{
+  width: auto;
+}
+.product-page .thumbnail-slider{
+  width:auto;
+}
+.product-page .product-thmbnail{
+  width: auto;
+}
+.product-page .slick-list{
+  width: auto;
+}
+.product-thumbnail .slick-track{
+  flex-direction: row !important;
+  width: 1000px !important;
+  margin: 0px;
+  height: 90px !important;
+}
+.product-thumbnail .thumbnail-slider>div>div{
+  flex-direction: row;
+ }
+.caro-arrow-right{
+  bottom: 50%;
+  right: 14px;
+  z-index: 4;
+}
+.caro-arrow-left{
+ bottom: 50%;
+ left: 28px;
+ z-index: 4;
+}
+.pro-btns-qk-v , .pro-btns-add-cart{
+  bottom: -74px;
+ }
+
+
+.thumbnail-slide{
+  margin-right: 17px;
+  
+}
+ .product-thumbnail .thumbnail-slider>div>div{
+  flex-direction: row;
+ }
+ .offcanvas.offcanvasRightCarousel{
+  top:auto;
+  bottom:0;
+  right:0;
+  left: 0;
+  height: 30%;
+  overflow-y: scroll;
+}
+.offcanvasRightCarousel-slider{
+  width: auto;
+  flex-wrap: wrap;
+}
+.offcanvasRightCarousel-slider>*{
+  width: 25%;
+}
+.width-toggle-class{
+width: 100%;
+top:0;
+height: 70% !important;
+}
+
+.product-page .offcanvas .header-layer, .product-page .offcanvas .header-layer [slides-counter]{
+  padding-block: 15px !important;
+  padding-inline: 0px !important;
+}
+.offcanvas.offcanvasRightCarousel{
+  height: 35%;
+}
+.offcanvas.offcanvasRightCarousel .offcanvas-body{
+  padding-block: 0px;
+}
+.offcanvas.offcanvasRightCarousel .offcanvas-header{
+  padding-block: 12px;
+}
+.product-page .offcanvas .header-layer ul span {
+  margin-right: 15px !important;
+}
+
+
+/* End of product page */
+
+
+    /* Start of bottom footer */
+    .bottom-footer{
+      margin-top: 0px !important;
+    }
+    .bottom-footer-list-parent{
+      display: inline-block !important;
+      text-align: center;
+    }
+    .bottom-footer-list-parent p{
+      margin-top: 10px;
+    }
+    .bottom-footer-list{
+      width:100% !important;
+      justify-content: center;
+    }
+    /* End of bottom footer */
+
+
+    
+    
+  
+}
+/* end of sm */
+
+/* start of md */
+@media (min-width: 576px) and (max-width:767px){
+/* start of global */
+.container > h2{
+    font-size: 32px  !important;
+    line-height: 48px;
+  }
+/* end of global */
+    /* start of bar announcement */
+    .sales{
+        margin: auto;
+    }
+    .phone-number,.login{
+        display: none;
+    }
+    .disappear{
+        display: none;
+    }
+    /* End of bar announcement */
+
+    /* Start of product page */
+    .product-thumbnail{
+      margin-block: 15px;
+    }
+    .product-page .product-title{
+      font-size:28px;
+      line-height:30.52px;
+      font-weight:600;
+    }
+    .guaranteed-checkout svg{
+      width:36px;
+      height: 36px;
+    }
+    .product-page .product-thumbnail{
+      width: auto;
+    }
+    .product-page .thumbnail-slider{
+      width:auto;
+    }
+    .product-page .product-thmbnail{
+      width: auto;
+    }
+    .product-page .slick-list{
+      width: auto;
+    }
+    .product-thumbnail .slick-track{
+      flex-direction: row !important;
+      width: 1000px !important;
+      margin: 0px;
+      height: 90px !important;
+    }
+    .thumbnail-slide{
+      margin-right: 20px;
+      
+    }
+    .caro-arrow-right{
+       bottom: 50%;
+       right: 14px;
+       z-index: 4;
+    }
+    .caro-arrow-left{
+      bottom: 50%;
+      left: 28px;
+      z-index: 4;
+    }
+    .pro-btns-qk-v , .pro-btns-add-cart{
+      bottom: -26%;
+     }
+     .offcanvas.offcanvasRightCarousel{
+        top:auto;
+        bottom:0;
+        right:0;
+        left: 0;
+        height: 30%;
+        overflow-y: scroll;
+     }
+     .offcanvas.offcanvasRightCarousel .offcanvas-body{
+      padding-block: 0px;
+    }
+    .offcanvas.offcanvasRightCarousel .offcanvas-header{
+      padding-block: 12px;
+    }
+     .offcanvasRightCarousel-slider{
+        width: auto;
+        flex-wrap: wrap;
+     }
+     .offcanvasRightCarousel-slider>*{
+      width: 20%;
+     }
+     .width-toggle-class{
+      width: 100%;
+      top:0;
+      height: 70% !important;
+     }
+
+
+    
+
+
+    /* End of product page */
+
+    /* Start of  */
+
+    .modifier-nav-tabs .active::before{
+      content: "";
+      height:0px;
+      width: 0;
+      top:100%;
+      z-index: -100;
+     }
+     .modifier-nav-tabs .active{
+      border-bottom:0px solid var(--SecondaryColor) !important;
+     }
+     .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+      border-bottom: none !important;
+     }
+     .nav-tabs .nav-link{
+      border-bottom: none;
+     }
+     .modifier-nav-tabs .nav-link.btn-special{
+      margin-left:0px;
+     }
+
+     /* End of */
+
+     
+    
+
+
+}
+/* end of md */
+
+/* start of lg */
+@media (min-width: 768px) and (max-width:992px){
+    /* start of global */
+    .container > h2{
+        font-size: 40px  !important;
+        line-height: 48px;
+      }
+    /* end of global */
+/* start of bar announcement */
+.sales{
+    margin: auto;
+}
+.phone-number,.login{
+    display: none;
+}
+.disappear{
+    display: none;
+}
+/* End of bar announcement */
+    /* Start of carousel products cards */
+   .product-large-img{
+    padding-left: 0px;
+   }
+
+    /* products Carousel */
+     .caro-arrow-right{
+      bottom: 50%;
+      right: 14px;
+      z-index: 4;
+   }
+   .caro-arrow-left{
+     bottom: 50%;
+     left: 28px;
+     z-index: 4;
+   }
+   .pro-btns-qk-v , .pro-btns-add-cart{
+    bottom: -28.5%;
+   }
+   /* products Carousel */
+
+
+   /* End of Carusel products cards */
+
+}
+/* start of xl */
+@media (min-width: 993px) and (max-width: 1199px){
+    /* Start of carousel products cards */
+    .caro-arrow-right{
+      bottom: 50%;
+      right: 0px;
+      z-index: 4;
+     }
+     .caro-arrow-left{
+      bottom: 50%;
+      left: 0px;
+      z-index: 4;
+     }
+     /* End of Carusel products cards */
+
+   /* products Carousel */
+     .caro-arrow-right{
+      bottom: 50%;
+      right: 14px;
+      z-index: 4;
+   }
+   .caro-arrow-left{
+     bottom: 50%;
+     left: 28px;
+     z-index: 4;
+   }
+   .pro-btns-qk-v , .pro-btns-add-cart{
+    bottom: -20.5%;
+   }
+   /* products Carousel */
+
+}
+/* end of xl */
+
+/* start between xl and xxl */
+@media (min-width: 1200px) and (max-width: 1399px){
+    /* Start of carousel products cards */
+    .caro-arrow-right{
+      bottom: 50%;
+      right: 18px;
+      z-index: 4;
+     }
+     .caro-arrow-left{
+      bottom: 50%;
+      left: 29px;
+      z-index: 4;
+     }
+     .pro-btns-qk-v , .pro-btns-add-cart{
+        bottom: -23.5%;
+    }
+     /* End of Carusel products cards */
+
+
+}
+/* end between xl and xxl */
+
+/* start of xxl */
+@media (min-width: 1400px){
+
+  
+}
+/* end of xxl */

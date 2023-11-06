@@ -1,0 +1,171 @@
+/* Special */
+@media (min-width: 0px) and (max-width:390px){
+    .bottom-footer ul{
+      display: block !important;
+    }
+    .bottom-footer ul li{
+      display: block !important;
+      margin-inline: 0!important;
+      margin-top: 8px;
+    }
+  }
+
+/* start of sm */
+@media (min-width: 0px) and (max-width:575px){
+    /* start of global */
+    .container > h2{
+        font-size: 32px  !important;
+        line-height: 48px;
+      }
+/* end of global */
+
+/* start of bar announcement */
+.sales{
+    margin: auto;
+}
+.phone-number,.login{
+    display: none;
+}
+.disappear{
+    display: none;
+}
+/* End of bar announcement */
+
+
+/* Start of Register */
+   .register-form h2{
+     font-size: 32px;
+     font-weight: 600;
+     line-height: 48px;
+      }
+    .register-form{
+        padding: 40px 20px;
+    }
+
+/* End of Register */
+
+    
+    /* Start of footer */
+    footer .container{
+      padding-top: 15px !important;
+    }
+    .footer h4{
+      margin-bottom: 27px;
+    }
+    .list-btm-border{
+      padding-top:20px;
+      border-top:1px solid rgba(255,255,255,20%);
+    }
+    .footer-titles svg{
+      width: 18px;
+      height: 18px;
+      stroke-width: 2.5px;
+    }
+    .footer-titles svg:hover{
+      cursor: pointer;
+    }
+    .footer svg{
+      stroke: white;
+    }
+    
+
+    /* End of footer */
+
+    /* Start of bottom footer */
+    .bottom-footer{
+      margin-top: 0px !important;
+    }
+    .bottom-footer-list-parent{
+      
+      text-align: center;
+    }
+    .bottom-footer-list-parent p{
+      margin-top: 10px;
+    }
+    .bottom-footer-list{
+      width:100% !important;
+      justify-content: center;
+    }
+    /* End of bottom footer */
+    
+  
+}
+/* end of sm */
+
+/* start of md */
+@media (min-width: 576px) and (max-width:767px){
+/* start of global */
+.container > h2{
+    font-size: 32px  !important;
+    line-height: 48px;
+  }
+/* end of global */
+    /* start of bar announcement */
+    .sales{
+        margin: auto;
+    }
+    .phone-number,.login{
+        display: none;
+    }
+    .disappear{
+        display: none;
+    }
+    /* End of bar announcement */
+    /* Start of Register */
+
+   .register-form h2{
+     font-size: 32px;
+     font-weight: 600;
+     line-height: 48px;
+      }
+    .register-form{
+        padding: 40px 20px;
+    }
+
+/* End of Register */
+
+/* Start of footer */
+footer .container{
+  padding-top: 15px !important;
+}
+.footer h4{
+  margin-bottom: 27px;
+}
+.list-btm-border{
+  padding-top:20px;
+  border-top:1px solid rgba(255,255,255,20%);
+}
+.footer svg{
+  stroke: white;
+}
+.footer-titles svg{
+  width: 18px;
+  height: 18px;
+  stroke-width: 2.5px;
+
+}
+.footer-titles svg:hover{
+  cursor: pointer;
+}
+
+
+/* End of footer */
+
+/* Start of bottom footer */
+.bottom-footer{
+  margin-top: 0px !important;
+}
+.bottom-footer-list-parent{
+  
+  text-align: center;
+}
+.bottom-footer-list-parent p{
+  margin-top: 10px;
+}
+.bottom-footer-list{
+  width:100% !important;
+  justify-content: center;
+}
+/* End of bottom footer */
+
+}

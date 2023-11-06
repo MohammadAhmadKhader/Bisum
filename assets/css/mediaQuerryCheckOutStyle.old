@@ -1,0 +1,222 @@
+/* xs=0 */
+
+/* start of sm */
+@media (min-width: 0px) and (max-width:575px){
+/* start of global */
+.container > h2{
+    font-size: 32px  !important;
+    line-height: 48px;
+}
+/* end of global */
+
+/* start of bar announcement */
+.sales{
+    margin: auto;
+}
+.phone-number,.login{
+    display: none;
+}
+/* End of bar announcement */
+/* Start of chechout */
+.process-steps-list {
+    width: auto !important;
+}
+.responsive-lists > ul{
+    display:inline-block !important;
+    margin-top:10px;
+    margin-right:15px;
+}
+.responsive-lists > ul >li{
+    margin-bottom: 30px;
+}
+.responsive-lists .process-steps-list li{
+    margin-top: 13px;
+    margin-bottom: 56px;
+}
+.bg-done::before{
+    content:none;
+}
+.bg-notDone::before{
+    content:none;
+}
+.user-profile{
+    margin-top: 15px;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+.user-profile .user-profile-edit-btn{
+    text-align: center;
+    margin-left: 0px !important;
+}
+.user-profile .user-info{
+    text-align: center;
+}
+/* End of checkout */
+
+
+
+
+}
+/* end of sm */
+
+/* start of md */
+@media (min-width: 576px) and (max-width:767px){
+/* start of global */
+.container > h2{
+    font-size: 32px  !important;
+    line-height: 48px;
+  }
+/* end of global */
+
+/* Start of chechout */
+.process-steps-list {
+    width: auto !important;
+}
+.responsive-lists > ul{
+    display:inline-block !important;
+    margin-top:10px;
+    margin-right:15px;
+}
+.responsive-lists > ul >li{
+    margin-bottom: 30px;
+}
+.responsive-lists .process-steps-list li{
+    margin-top: 13px;
+    margin-bottom: 56px;
+}
+.bg-done::before{
+    content:none;
+}
+.bg-notDone::before{
+    content:none;
+}
+.user-profile{
+    margin-top: 15px;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+.user-profile .user-profile-edit-btn{
+    text-align: center;
+    margin-left: 0px !important;
+}
+.user-profile .user-info{
+    text-align: center;
+}
+/* .user-profile > div {
+    display: block;
+    width: 100% !important;
+} */
+/* End of checkout */
+
+
+
+
+/* start of bar announcement */
+.sales{
+    margin: auto;
+}
+.phone-number,.login{
+    display: none;
+}
+/* End of bar announcement */
+
+}
+/* end of md */
+
+/* start of lg */
+@media (min-width: 768px) and (max-width:992px){
+    /* start of global */
+    .container > h2{
+        font-size: 40px  !important;
+        line-height: 48px;
+      }
+    /* end of global */
+
+    /* Start of checkout */
+    .bg-done::before{
+        left:-85%;
+    }
+    .bg-notDone::before{
+        left:-280%;
+        width:460%;
+    }
+    .bg-notDone.special::before{
+        left: -250%;
+    }
+
+
+    /* End of checkout */
+/* start of bar announcement */
+.sales{
+    margin: auto;
+}
+.phone-number,.login{
+    display: none;
+}
+/* End of bar announcement */
+
+
+    
+
+
+
+
+}
+/* end of lg */
+
+/* start of xl */
+@media (min-width: 993px) and (max-width: 1199px){
+
+
+/* Start of checkout */
+.bg-done::before{
+    left:-72%;
+}
+.bg-notDone::before{
+    left:-285%;
+    width:460%;
+}
+.bg-notDone.special::before{
+    left: -240%;
+    width:460%;
+}
+
+
+/* End of checkout */
+
+/* start of footer */
+.input-group{
+    width: 80%!important;
+ }
+    
+/* End of footer */
+
+}
+/* end of xl */
+
+/* start between xl and xxl */
+@media (min-width: 1200px) and (max-width: 1399px){
+    /* Start of checkout */
+    .bg-done::before{
+        left:-114%;
+    }
+    .bg-notDone::before{
+        left:-245%;
+        width:460%;
+    }
+    .bg-notDone.special::before{
+        left: -240%;
+        
+    }
+    /* End of checkout */
+
+
+
+}
+/* end between xl and xxl */
+
+/* start of xxl */
+@media (min-width: 1400px){}
+/* end of xxl */

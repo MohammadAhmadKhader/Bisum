@@ -1,0 +1,19 @@
+.blogs-section{
+    margin-top: 100px;
+}
+.page-pagination{
+    margin-top: 100px;
+}
+.page-pagination ul li:hover{
+    cursor: pointer;
+}
+.page-pagination ul li a{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+}
+.page-pagination ul{
+    margin: auto;
+    width:250px;
+    justify-content: space-between;
+}
