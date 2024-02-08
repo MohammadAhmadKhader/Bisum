@@ -10,6 +10,7 @@ let slow_show_carousel_btns_blogs;
 let fast_show_carousel_btns_blogs;
 
 // Clients part
+
 clients.onmouseenter = function(){
     slow_show_carousel_btns_clients = clients.querySelector('[slow-disappear]');
     fast_show_carousel_btns_clients = clients.querySelector('[fast-disappear]');
@@ -76,19 +77,19 @@ let main_carousel_left_arrow ;
 
 main_carousel.onmouseenter = function(){
     if(window.innerWidth > 767){
-    main_carousel_right_arrow = main_carousel.querySelector("[main-carousel-right-arrow]");
-    main_carousel_left_arrow =  main_carousel.querySelector("[main-carousel-left-arrow]");
-    main_carousel_right_arrow.style.opacity = "1";
-    main_carousel_left_arrow.style.opacity = "1";
-    }
-}
-main_carousel.onmouseleave = function(){
-    if(window.innerWidth > 767){
-    main_carousel_right_arrow.style.opacity = "0";
-    main_carousel_left_arrow.style.opacity = "0";
+        main_carousel_right_arrow = main_carousel.querySelector("[main-carousel-right-arrow]");
+        main_carousel_left_arrow =  main_carousel.querySelector("[main-carousel-left-arrow]");
+        main_carousel_right_arrow.style.opacity = "1" ;
+        main_carousel_left_arrow.style.opacity = "1" ;
     }
 }
 
+main_carousel.onmouseleave = function(){
+    if(window.innerWidth > 767){
+        main_carousel_right_arrow.style.opacity =  "0" ;
+        main_carousel_left_arrow.style.opacity = "0" ;
+    }
+}
 // End of Carousels main page
 
 
@@ -130,3 +131,25 @@ for(let i=0;i<navToBlogDetailsBtns.length;i++){
 }
 
 // End of Navigation functionality for some buttons
+
+// Start of video marketing
+
+const videoCloseBtn = document.querySelector(".video-marketing .btn-close");
+videoCloseBtn.onclick = (e)=>{
+    const iframe = e.target.closest(".video-marketing").querySelector("iframe");
+    const url = "https://www.youtube.com/embed/tvPnrfQCiCo";
+    
+    iframe.src = "";
+    iframe.src = url;
+}
+
+const startVideoBtn = document.querySelector('.video-marketing button');
+startVideoBtn.onclick = ()=>{
+    let modal = document.querySelector(".modal-backdrop");
+    modal.onclick = (e)=>{
+        const closeBtn = e.target.closest("body").querySelector(".video-marketing .btn-close");
+        closeBtn.click();
+    }
+}
+
+// End of video marketing

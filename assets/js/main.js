@@ -284,6 +284,14 @@ titleNextFeaturedCollectionImage.onclick = function(){
     window.location.href="Collection-left-sidebar.html";
 }
 
+// hide list on resize!
+let announcementBar = document.querySelector("button");
+window.onresize =()=>{
+    if(announcementBar.clientWidth < 767 && announcementBar.ariaExpanded == "true"){
+        announcementBar.click();
+    }
+}
+
 // End of navbar
 
 // start of scroll up button
@@ -324,16 +332,15 @@ let flag_searchdrop = 0;
 for(let i=0;i<search_icon.length;i++){
     search_icon[i].onclick = function(){
     if(flag_searchdrop==0){
-    search_dropdown.style.height = "60px";
-    search_dropdown.style.opacity = "1";
-    flag_searchdrop++;
-}
+        search_dropdown.style.height = "60px";
+        search_dropdown.style.opacity = "1";
+        flag_searchdrop++;
+    }
     else{
-    search_dropdown.style.height = "0px";
-    search_dropdown.style.opacity= "0";
-    flag_searchdrop--;
-
-       }
+        search_dropdown.style.height = "0px";
+        search_dropdown.style.opacity= "0";
+        flag_searchdrop--;
+    }
    }
 }
 
@@ -381,30 +388,26 @@ let footer_lists = document.querySelectorAll(".zip-list");
 let zip_down = document.querySelectorAll("[zip-down]");
 
 for(let i=0;i<zip_down.length;i++){
-let flag_footer_lists = 0; 
+    let flag_footer_lists = 0; 
 
-zip_down[i].onclick = function(){
-    let parent = this.parentElement.parentElement;
-    let target = parent.querySelector(".zip-list");
+    zip_down[i].onclick = function(){
+        let parent = this.parentElement.parentElement;
+        let target = parent.querySelector(".zip-list");
 
-    if(flag_footer_lists==0){
-    target.style.height = "170px";
-    flag_footer_lists++;
+        if(flag_footer_lists==0){
+            target.style.height = "170px";
+            flag_footer_lists++;
 
-        if(target.hasAttribute('help-list')){
-        target.style.height = "140px";
+            if(target.hasAttribute('help-list')){
+                target.style.height = "140px";
+            }
         }
+        else{
+            target.style.height = "0px";
+            flag_footer_lists--;
+        }  
     }
-    else{
-    console.log(target)
-    target.style.height = "0px";
-    flag_footer_lists--;
-    }
-    
-    
 }
-}
-
 // Footer end
 
 // Start of Navigation functionality for some buttons
