@@ -283,15 +283,6 @@ imageOfFeaturedCollection.onclick = function(){
 titleNextFeaturedCollectionImage.onclick = function(){
     window.location.href="Collection-left-sidebar.html";
 }
-
-// hide list on resize!
-let announcementBar = document.querySelector("button");
-window.onresize =()=>{
-    if(announcementBar.clientWidth < 767 && announcementBar.ariaExpanded == "true"){
-        announcementBar.click();
-    }
-}
-
 // End of navbar
 
 // start of scroll up button
@@ -408,6 +399,7 @@ for(let i=0;i<zip_down.length;i++){
         }  
     }
 }
+
 // Footer end
 
 // Start of Navigation functionality for some buttons
@@ -424,3 +416,21 @@ for(let i=0;i<help_list.length;i++){
 }
 
 // End of Navigation functionality for some buttons
+
+// * start of functionality related to screen resizing
+
+// announcement bar hide list on resize!
+let announcementBarBtn = document.querySelector(".announcement-bar button");
+
+window.onresize =()=>{
+    if(announcementBarBtn.ariaExpanded == "true"){
+        announcementBarBtn.click();
+    }
+
+// unzip footer lists on resize
+    footer_lists.forEach((e)=>{
+        e.style = ""
+    })
+}
+
+// * end of functionality related to screen resizing

@@ -150,6 +150,21 @@ startVideoBtn.onclick = ()=>{
         const closeBtn = e.target.closest("body").querySelector(".video-marketing .btn-close");
         closeBtn.click();
     }
+
+    // Laptop
+    if(window.innerHeight < 750 && window.innerWidth > window.innerHeight){
+        const videoModal = document.querySelector(".video-marketing .modal");
+        const iframe = document.querySelector(".video-marketing iframe");
+        videoModal.style.top = "0px";
+        iframe.style.height = "510px";
+    }
+
+    // Phone
+    if(window.innerHeight < 950 && window.innerWidth < window.innerHeight){
+        const videoModal = document.querySelector(".video-marketing .modal");
+        console.log(videoModal)
+        videoModal.style.top = "60%";
+    }
 }
 
 // End of video marketing
